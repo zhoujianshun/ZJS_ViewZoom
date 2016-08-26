@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FF13E91C2BE79B0053F783 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FF13E81C2BE79B0053F783 /* main.m */; };
+		07FF13EC1C2BE79B0053F783 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FF13EB1C2BE79B0053F783 /* AppDelegate.m */; };
+		07FF13EF1C2BE79B0053F783 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FF13EE1C2BE79B0053F783 /* ViewController.m */; };
+		07FF13F21C2BE79B0053F783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FF13F01C2BE79B0053F783 /* Main.storyboard */; };
+		07FF13F41C2BE79B0053F783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FF13F31C2BE79B0053F783 /* Assets.xcassets */; };
+		07FF13F71C2BE79B0053F783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FF13F51C2BE79B0053F783 /* LaunchScreen.storyboard */; };
+		07FF14021C2BE79B0053F783 /* ZJS_ViewZoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FF14011C2BE79B0053F783 /* ZJS_ViewZoomTests.m */; };
+		07FF140D1C2BE79B0053F783 /* ZJS_ViewZoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FF140C1C2BE79B0053F783 /* ZJS_ViewZoomUITests.m */; };
+		07FF141C1C2BE99A0053F783 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FF141B1C2BE99A0053F783 /* Test1ViewController.m */; };
+		07FF14201C2BEDBF0053F783 /* ZJSZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FF141F1C2BEDBF0053F783 /* ZJSZoomView.m */; };
+		07FF14241C2C1FC50053F783 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07FF14231C2C1FC50053F783 /* image2.jpg */; };
+		07FF14261C2C21180053F783 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07FF14251C2C21180053F783 /* image1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07FF13FE1C2BE79B0053F783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FF13DC1C2BE79A0053F783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FF13E31C2BE79B0053F783;
+			remoteInfo = ZJS_ViewZoom;
+		};
+		07FF14091C2BE79B0053F783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FF13DC1C2BE79A0053F783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FF13E31C2BE79B0053F783;
+			remoteInfo = ZJS_ViewZoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FF13E41C2BE79B0053F783 /* ZJS_ViewZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJS_ViewZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FF13E81C2BE79B0053F783 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07FF13EA1C2BE79B0053F783 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07FF13EB1C2BE79B0053F783 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07FF13ED1C2BE79B0053F783 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07FF13EE1C2BE79B0053F783 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07FF13F11C2BE79B0053F783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07FF13F31C2BE79B0053F783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07FF13F61C2BE79B0053F783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07FF13F81C2BE79B0053F783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FF13FD1C2BE79B0053F783 /* ZJS_ViewZoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJS_ViewZoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FF14011C2BE79B0053F783 /* ZJS_ViewZoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJS_ViewZoomTests.m; sourceTree = "<group>"; };
+		07FF14031C2BE79B0053F783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FF14081C2BE79B0053F783 /* ZJS_ViewZoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJS_ViewZoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FF140C1C2BE79B0053F783 /* ZJS_ViewZoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJS_ViewZoomUITests.m; sourceTree = "<group>"; };
+		07FF140E1C2BE79B0053F783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FF141A1C2BE99A0053F783 /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		07FF141B1C2BE99A0053F783 /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		07FF141E1C2BEDBF0053F783 /* ZJSZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSZoomView.h; sourceTree = "<group>"; };
+		07FF141F1C2BEDBF0053F783 /* ZJSZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSZoomView.m; sourceTree = "<group>"; };
+		07FF14231C2C1FC50053F783 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		07FF14251C2C21180053F783 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07FF13E11C2BE79B0053F783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FF13FA1C2BE79B0053F783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FF14051C2BE79B0053F783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FF13DB1C2BE79A0053F783 = {
+			isa = PBXGroup;
+			children = (
+				07FF13E61C2BE79B0053F783 /* ZJS_ViewZoom */,
+				07FF14001C2BE79B0053F783 /* ZJS_ViewZoomTests */,
+				07FF140B1C2BE79B0053F783 /* ZJS_ViewZoomUITests */,
+				07FF13E51C2BE79B0053F783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07FF13E51C2BE79B0053F783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07FF13E41C2BE79B0053F783 /* ZJS_ViewZoom.app */,
+				07FF13FD1C2BE79B0053F783 /* ZJS_ViewZoomTests.xctest */,
+				07FF14081C2BE79B0053F783 /* ZJS_ViewZoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FF13E61C2BE79B0053F783 /* ZJS_ViewZoom */ = {
+			isa = PBXGroup;
+			children = (
+				07FF141D1C2BED790053F783 /* views */,
+				07FF13EA1C2BE79B0053F783 /* AppDelegate.h */,
+				07FF13EB1C2BE79B0053F783 /* AppDelegate.m */,
+				07FF13ED1C2BE79B0053F783 /* ViewController.h */,
+				07FF13EE1C2BE79B0053F783 /* ViewController.m */,
+				07FF13F01C2BE79B0053F783 /* Main.storyboard */,
+				07FF13F31C2BE79B0053F783 /* Assets.xcassets */,
+				07FF13F51C2BE79B0053F783 /* LaunchScreen.storyboard */,
+				07FF13F81C2BE79B0053F783 /* Info.plist */,
+				07FF13E71C2BE79B0053F783 /* Supporting Files */,
+				07FF141A1C2BE99A0053F783 /* Test1ViewController.h */,
+				07FF141B1C2BE99A0053F783 /* Test1ViewController.m */,
+				07FF14251C2C21180053F783 /* image1.jpg */,
+				07FF14231C2C1FC50053F783 /* image2.jpg */,
+			);
+			path = ZJS_ViewZoom;
+			sourceTree = "<group>";
+		};
+		07FF13E71C2BE79B0053F783 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07FF13E81C2BE79B0053F783 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07FF14001C2BE79B0053F783 /* ZJS_ViewZoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				07FF14011C2BE79B0053F783 /* ZJS_ViewZoomTests.m */,
+				07FF14031C2BE79B0053F783 /* Info.plist */,
+			);
+			path = ZJS_ViewZoomTests;
+			sourceTree = "<group>";
+		};
+		07FF140B1C2BE79B0053F783 /* ZJS_ViewZoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07FF140C1C2BE79B0053F783 /* ZJS_ViewZoomUITests.m */,
+				07FF140E1C2BE79B0053F783 /* Info.plist */,
+			);
+			path = ZJS_ViewZoomUITests;
+			sourceTree = "<group>";
+		};
+		07FF141D1C2BED790053F783 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				07FF141E1C2BEDBF0053F783 /* ZJSZoomView.h */,
+				07FF141F1C2BEDBF0053F783 /* ZJSZoomView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FF13E31C2BE79B0053F783 /* ZJS_ViewZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FF14111C2BE79B0053F783 /* Build configuration list for PBXNativeTarget "ZJS_ViewZoom" */;
+			buildPhases = (
+				07FF13E01C2BE79B0053F783 /* Sources */,
+				07FF13E11C2BE79B0053F783 /* Frameworks */,
+				07FF13E21C2BE79B0053F783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJS_ViewZoom;
+			productName = ZJS_ViewZoom;
+			productReference = 07FF13E41C2BE79B0053F783 /* ZJS_ViewZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07FF13FC1C2BE79B0053F783 /* ZJS_ViewZoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FF14141C2BE79B0053F783 /* Build configuration list for PBXNativeTarget "ZJS_ViewZoomTests" */;
+			buildPhases = (
+				07FF13F91C2BE79B0053F783 /* Sources */,
+				07FF13FA1C2BE79B0053F783 /* Frameworks */,
+				07FF13FB1C2BE79B0053F783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FF13FF1C2BE79B0053F783 /* PBXTargetDependency */,
+			);
+			name = ZJS_ViewZoomTests;
+			productName = ZJS_ViewZoomTests;
+			productReference = 07FF13FD1C2BE79B0053F783 /* ZJS_ViewZoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07FF14071C2BE79B0053F783 /* ZJS_ViewZoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FF14171C2BE79B0053F783 /* Build configuration list for PBXNativeTarget "ZJS_ViewZoomUITests" */;
+			buildPhases = (
+				07FF14041C2BE79B0053F783 /* Sources */,
+				07FF14051C2BE79B0053F783 /* Frameworks */,
+				07FF14061C2BE79B0053F783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FF140A1C2BE79B0053F783 /* PBXTargetDependency */,
+			);
+			name = ZJS_ViewZoomUITests;
+			productName = ZJS_ViewZoomUITests;
+			productReference = 07FF14081C2BE79B0053F783 /* ZJS_ViewZoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07FF13DC1C2BE79A0053F783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "周建顺";
+				TargetAttributes = {
+					07FF13E31C2BE79B0053F783 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FD3FY3GTVB;
+					};
+					07FF13FC1C2BE79B0053F783 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 07FF13E31C2BE79B0053F783;
+					};
+					07FF14071C2BE79B0053F783 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 07FF13E31C2BE79B0053F783;
+					};
+				};
+			};
+			buildConfigurationList = 07FF13DF1C2BE79A0053F783 /* Build configuration list for PBXProject "ZJS_ViewZoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07FF13DB1C2BE79A0053F783;
+			productRefGroup = 07FF13E51C2BE79B0053F783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07FF13E31C2BE79B0053F783 /* ZJS_ViewZoom */,
+				07FF13FC1C2BE79B0053F783 /* ZJS_ViewZoomTests */,
+				07FF14071C2BE79B0053F783 /* ZJS_ViewZoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07FF13E21C2BE79B0053F783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FF13F71C2BE79B0053F783 /* LaunchScreen.storyboard in Resources */,
+				07FF14241C2C1FC50053F783 /* image2.jpg in Resources */,
+				07FF13F41C2BE79B0053F783 /* Assets.xcassets in Resources */,
+				07FF13F21C2BE79B0053F783 /* Main.storyboard in Resources */,
+				07FF14261C2C21180053F783 /* image1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FF13FB1C2BE79B0053F783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FF14061C2BE79B0053F783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07FF13E01C2BE79B0053F783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FF141C1C2BE99A0053F783 /* Test1ViewController.m in Sources */,
+				07FF14201C2BEDBF0053F783 /* ZJSZoomView.m in Sources */,
+				07FF13EF1C2BE79B0053F783 /* ViewController.m in Sources */,
+				07FF13EC1C2BE79B0053F783 /* AppDelegate.m in Sources */,
+				07FF13E91C2BE79B0053F783 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FF13F91C2BE79B0053F783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FF14021C2BE79B0053F783 /* ZJS_ViewZoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FF14041C2BE79B0053F783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FF140D1C2BE79B0053F783 /* ZJS_ViewZoomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FF13FF1C2BE79B0053F783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FF13E31C2BE79B0053F783 /* ZJS_ViewZoom */;
+			targetProxy = 07FF13FE1C2BE79B0053F783 /* PBXContainerItemProxy */;
+		};
+		07FF140A1C2BE79B0053F783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FF13E31C2BE79B0053F783 /* ZJS_ViewZoom */;
+			targetProxy = 07FF14091C2BE79B0053F783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07FF13F01C2BE79B0053F783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FF13F11C2BE79B0053F783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07FF13F51C2BE79B0053F783 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FF13F61C2BE79B0053F783 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07FF140F1C2BE79B0053F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07FF14101C2BE79B0053F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07FF14121C2BE79B0053F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZJS_ViewZoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.ZJSViewZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07FF14131C2BE79B0053F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZJS_ViewZoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mxr.ZJSViewZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07FF14151C2BE79B0053F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJS_ViewZoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zjs.ZJS-ViewZoomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJS_ViewZoom.app/ZJS_ViewZoom";
+			};
+			name = Debug;
+		};
+		07FF14161C2BE79B0053F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJS_ViewZoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zjs.ZJS-ViewZoomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJS_ViewZoom.app/ZJS_ViewZoom";
+			};
+			name = Release;
+		};
+		07FF14181C2BE79B0053F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJS_ViewZoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zjs.ZJS-ViewZoomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJS_ViewZoom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07FF14191C2BE79B0053F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJS_ViewZoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zjs.ZJS-ViewZoomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJS_ViewZoom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FF13DF1C2BE79A0053F783 /* Build configuration list for PBXProject "ZJS_ViewZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FF140F1C2BE79B0053F783 /* Debug */,
+				07FF14101C2BE79B0053F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FF14111C2BE79B0053F783 /* Build configuration list for PBXNativeTarget "ZJS_ViewZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FF14121C2BE79B0053F783 /* Debug */,
+				07FF14131C2BE79B0053F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07FF14141C2BE79B0053F783 /* Build configuration list for PBXNativeTarget "ZJS_ViewZoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FF14151C2BE79B0053F783 /* Debug */,
+				07FF14161C2BE79B0053F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07FF14171C2BE79B0053F783 /* Build configuration list for PBXNativeTarget "ZJS_ViewZoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FF14181C2BE79B0053F783 /* Debug */,
+				07FF14191C2BE79B0053F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07FF13DC1C2BE79A0053F783 /* Project object */;
+}
